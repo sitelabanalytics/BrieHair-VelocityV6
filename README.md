@@ -3,6 +3,10 @@
 
 Aidxn.com - pushed by Netlify, Cloudflare DNS.
 blog.aidxn.com - Gatsby based web3 blog. 
+hi.aidxn.com - onelink page pushed by Netlify.
+pay.aidxn.com - Supabase pushed by Vercel.
+
+Velocity Theme - TailwindCSS, FlickityCSS, FlowbiteJS, AlpineJS, VanillaHTML. 
 
 # Still needs work before next copy, 
 Desktop menu links, 
