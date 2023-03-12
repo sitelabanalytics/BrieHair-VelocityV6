@@ -1,17 +1,44 @@
-# aidxn-tailwind - focus on selling R.E. html5 ads
-Aidxn.com tailwind vanilla site at index - pushed by Cloudflare Pages
-blog.aidxn.com - install cms based web3 blog. 
+# aidxn.com/ 
+# _ focus on selling Velocity Web Dev Packages.
 
+Aidxn.com - pushed by Netlify, Cloudflare DNS.
+blog.aidxn.com - Gatsby based web3 blog. 
+
+# Still needs work before next copy, 
+Desktop menu links, 
+mega menu, 
+home hero divs, 
+make pages and base template for Pricing.html / About.html / Our-team.html / Products.html / Velocity.html.
 
 # job list
-- Finalise basic Home page design and migration. 
-- create your own horizontal-slider.css (keep unopinionated, share with Velocity)
+- Finalise basic Home page design for best promotable version of Velocity.
+
+- Horizontal Slider 
+    V1 _ Flickty Slider css and super light JS.
+    V2 _ CSS/Tailwind CSSTricks Blog Post Slider Replica 
+        - TO-DO Write and Link to blog.aidxn blog posts.
+        
+- Desktop Mega Menu Hover:
+    - Promote all services in one shot. 
+    - Link to all pages easily.
+    - Add Mini Version of V2 Blog Slider to show products / services.
+    
+
+- Netlify powered on site quick contact.
+    - Optimise to submissions.
+
+- SEO Performance:
+    - Gold Coast Web Design Keyword Deep Dive.
+
 - create your own chipmenu.css for submenu's (keep unopinionated, share with Velocity)
-- source a lightweight fluid JS slider for all sites (understand it well first, codepen, then seperate git, then bring in)
-- Bulletproof home page HTML for copying
+
+
 - Contact us Page
 - Meet the Team Page
 - Services Page (bullet proof for templates)
 - Image Gallery Page (bullet proof for templates)
 - Blog Gallery Page (bullet proof for templates)
 - Blog Content Page w/ Horizontal card slider (bullet proof for templates)
+
+
+ 
