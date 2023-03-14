@@ -35,8 +35,13 @@
 <!-- Aidxn Blog Slider Min CSS - First Line Eager FCP - Second line everything else for CSS Cards especially minified -->
     <style>
 	  body{background: #f8f9fb;max-width:100%;overflow-x:hidden;}
-	   	a,body{color:#fff}.mini-card-grid{scrollbar-color:#201c29;scrollbar-width:10px;scrollbar-gutter:always;padding:3rem;padding-left:0px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-overflow-scrolling:touch}body{font-family:Overpass,sans-serif}.mini-card{min-width:300px;min-height:350px;padding:1.5rem;border-radius:16px;background:#17141d;-webkit-box-shadow:-1rem 0 3rem #000;box-shadow:-1rem 0 3rem #000;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-transition:.2s;transition:.2s;margin:0}.mini-article-meta{font-size:14px}.mini-card:focus-within,.mini-card:hover{-webkit-transform:translate(0,-1rem);transform:translate(0,-1rem)}.mini-card:focus-within~.mini-card,.mini-card:hover~.mini-card{-webkit-transform:translateX(130px);transform:translateX(130px)}.mini-card:not(:first-child){margin-left:-130px}.mini-article-byline{margin:3rem 0 0;display:grid;grid-template-columns:75px 1fr;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.tags{margin:1rem 0 2rem;padding:.5rem 0 1rem;line-height:1.8}a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):focus,a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):hover{background:-webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));background:linear-gradient(to right,#ff8a00,#da1b60);-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;box-decoration-break:clone;text-shadow:none}.mini-card h2{font-size:20px;margin:.25rem 0 auto}a{text-decoration:none}.mini-article-card-header{margin-bottom:auto}.mini-article-meta .author-avatar img{width:40px;height:40px}.author-avatar img{border-radius:50%;width:60px;height:60px;margin:12px 10px;-webkit-filter:grayscale(100%);filter:grayscale(100%)}.mini-article-meta .author-avatar .half-circle{width:60px;height:48px}.mini-article-byline .author-avatar,.mini-article-byline .author-name-area{grid-area:auto}.author-avatar{grid-area:avatar;-ms-flex-item-align:start;align-self:start;position:relative}.author-avatar .half-circle{position:absolute;bottom:0;left:0;width:80px;height:56px;fill:none;stroke:url(#orange-to-pink);stroke-width:8;stroke-linecap:round;pointer-events:none}.mini-article-subhead{font-size:14px;color:#fff;margin:0 0 1rem}time{color:#7a7a8c}
-    		@layer base{:root{--color-primary: #A600FF;--color-secondary:#6D00A8;}}
+	  
+	    a,body{color:#fff}.mini-card-grid{scrollbar-color:#201c29;scrollbar-width:10px;scrollbar-gutter:always;padding:3rem;padding-left:0px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-overflow-scrolling:touch}body{font-family:Overpass,sans-serif}.mini-card{min-width:300px;min-height:350px;padding:1.5rem;border-radius:16px;background:#17141d;-webkit-box-shadow:-1rem 0 3rem #000;box-shadow:-1rem 0 3rem #000;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-transition:.2s;transition:.2s;margin:0}.mini-article-meta{font-size:14px}.mini-card:focus-within,.mini-card:hover{-webkit-transform:translate(0,-1rem);transform:translate(0,-1rem)}.mini-card:focus-within~.mini-card,.mini-card:hover~.mini-card{-webkit-transform:translateX(130px);transform:translateX(130px)}.mini-card:not(:first-child){margin-left:-130px}.mini-article-byline{margin:3rem 0 0;display:grid;grid-template-columns:75px 1fr;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.tags{margin:1rem 0 2rem;padding:.5rem 0 1rem;line-height:1.8}a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):focus,a:not(.button):not(.commentPreviewButton):not(.comment-reply-link):hover{background:-webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));background:linear-gradient(to right,#ff8a00,#da1b60);-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-box-decoration-break:clone;box-decoration-break:clone;text-shadow:none}.mini-card h2{font-size:20px;margin:.25rem 0 auto}a{text-decoration:none}.mini-article-card-header{margin-bottom:auto}.mini-article-meta .author-avatar img{width:40px;height:40px}.author-avatar img{border-radius:50%;width:60px;height:60px;margin:12px 10px;-webkit-filter:grayscale(100%);filter:grayscale(100%)}.mini-article-meta .author-avatar .half-circle{width:60px;height:48px}.mini-article-byline .author-avatar,.mini-article-byline .author-name-area{grid-area:auto}.author-avatar{grid-area:avatar;-ms-flex-item-align:start;align-self:start;position:relative}.author-avatar .half-circle{position:absolute;bottom:0;left:0;width:80px;height:56px;fill:none;stroke:url(#orange-to-pink);stroke-width:8;stroke-linecap:round;pointer-events:none}.mini-article-subhead{font-size:14px;color:#fff;margin:0 0 1rem}time{color:#7a7a8c}
+    		
+	        svg{width:80vh;height:80vh;perspective:50px}circle{stroke:hsl(279,100%,50%);stroke-width:5px;fill:none}.equator{transform:rotateZ(-20deg) rotateX(125deg)}.meridian{animation:1s linear infinite turn;transform:rotateZ(-20deg) rotateX(35deg) rotateY(var(--start))}@keyframes turn{100%{transform:rotateZ(-20deg) rotateX(35deg) rotateY(var(--end))}}body{background:#161a1c;display:flex;align-items:center;justify-content:center;flex-direction:column}
+	    	
+	    	@layer base{:root{--color-primary: #A600FF;--color-secondary:#6D00A8;}}
+	    
     </style>
 	
 </head>
@@ -164,9 +169,31 @@
 		  <button type="submit" class="text-white bg-purple-800 hover:bg-purple-400 focus:ring-4 font-semibold font-2xl rounded-lg w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
 	</form>
     </div>
-    <div class="hidden max-w-2xl md:w-1/2 pb-6 pt-12">
-	    <!-- Todo - Hero Section Animated SVG -->
+    <div class="max-w-2xl md:w-1/2 pb-6 pt-12">
+	    
+	    
+	     <div id="animationWrapper" translate="no">
+		<svg viewBox="-500 -500 1000 1000">
+			<circle r="450"></circle>
+			<circle class="equator" r="450"></circle>
+			<circle class="meridian" r="450" style="--start:165deg; --end:180deg"></circle>
+			<circle class="meridian" r="450" style="--start:150deg; --end:165deg"></circle>
+			<circle class="meridian" r="450" style="--start:135deg; --end:150deg"></circle>
+			<circle class="meridian" r="450" style="--start:120deg; --end:135deg"></circle>
+			<circle class="meridian" r="450" style="--start:105deg; --end:120deg"></circle>
+			<circle class="meridian" r="450" style="--start:90deg; --end:105deg"></circle>
+			<circle class="meridian" r="450" style="--start:75deg; --end:90deg"></circle>
+			<circle class="meridian" r="450" style="--start:60deg; --end:75deg"></circle>
+			<circle class="meridian" r="450" style="--start:45deg; --end:60deg"></circle>
+			<circle class="meridian" r="450" style="--start:30deg; --end:45deg"></circle>
+			<circle class="meridian" r="450" style="--start:15deg; --end:30deg"></circle>
+			<circle class="meridian" r="450" style="--start:0deg; --end:15deg"></circle>
+		</svg>
+	    </div>
+	    
+	    
       </div>
+	      
     </div>
   </div>
   <div class="hidden max-w-full" style="overflow-x: hidden; max-width: 96vw;">
