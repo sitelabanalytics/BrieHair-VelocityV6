@@ -43,6 +43,8 @@
       justify-content: center;
       flex-direction: column
     }
+    
+    #heroHead { @media only screen and (min-width: 996px)  { font-size: 48pt; }}
 
     @layer base {
       :root {
@@ -166,7 +168,7 @@
   <section class="bg-black text-white pt-12 pb-24 px-8 lg:px-16">
     <div class="mx-auto max-w-full">
       <div class="flex flex-wrap-reverse flex-row items-center justify-center">
-        <div class="sm:w-full md:w-2/5 mb-4 pr-2 xl:pr-8">
+        <div class="sm:w-full md:w-4/6 mb-4 pr-2 xl:pr-8">
           <a class="inline-block mb-6 text-3xl font-bold leading-none">
             <!-- Aidxn header bubbles -->
             <svg class="w-auto h-12" viewBox="0 0 73 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -178,7 +180,7 @@
 
           <h4 class="mb-4 tracking-widest text-sm font-medium text-gray-300 uppercase">Building Beautiful Brands</h4>
           <div class="text-white pr-4">
-            <h1 class="mb-4 text-3xl md:text-4xl lg:text-8xl tracking-snug leading-snug font-bold max-w-full">Design, Develop. Market, Moonshot</h1>
+            <h1 id="heroHead" class="mb-4 text-3xl tracking-snug leading-snug font-bold max-w-full">Design, Develop. Market, Moonshot</h1>
           </div>
 
           <div class="text-white max-w-3xl">
@@ -196,7 +198,7 @@
           </form>
         </div>
 
-        <div class="sm:w-full md:w-3/5 flex justify-center">
+        <div class="sm:w-full md:w-2/6 flex justify-center">
           <div class="w-3/4">
 
             <div id="animationWrapper" translate="no">
